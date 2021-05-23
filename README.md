@@ -1,2 +1,63 @@
-# School_District_Analysis
+# School District Analysis
 4 Panda, Jupyter and Python
+
+## School District Analysis Overview
+I have been working with Maria on created various data elements concerned with district-wide statistics and the impact of budget, school type and number of students per school affect testing results.  Maria and her supervisor were recently notified by the school board that the students_complete.csv file shows evidence of academic dishonesty; specifically, reading and math grades for Thomas High School ninth graders appear to have been altered. Although the school board does not know the full extent of the academic dishonesty, they want to uphold state-testing standards and have turned to Maria for help. She has asked me to replace the math and reading scores for Thomas High School with NaNs while keeping the rest of the data intact. After that is completed, Maria requested that I recalculate the data for the school district analysis report back the impact.
+
+
+## School District Analysis
+There are seven key metrics being calculated and some were impacted by the change in math and reading scores but some were not, here are my findings:
+### 1. Total School Budget - this metric would not be impacted by a change in math or reading scores as they are not part of the calculation.
+### 2. Per Student Budget - as with Total School Budget, Per Student Bedget metric would not be impacted by a change in math and reading scores.
+### 3. Average Math Score - the change in average math score after the 9th grade data was set to NaN and all the calculations adjustments were made was very small for Thomas High School; the original % was 83.418349 and changed to 83.350937, which is a -.08% change.  This is less than signifigant once the numbers are rounded to the 1 decimal place.
+### 4. Average Reading Score - similar to the match average, the change in average reading score after the 9th grade data was set to NaN and all the calculations adjustments were made, was very small for Thomas High School; the original % was 83.848930 and changed to 83.896082, which is a +.05% increase.  This is less than signifigant once the numbers are rounded to the 1 decimal place.
+### 5. % Passing Math - as with the Average Math and Reading Scores, the % Passing Math only changed by an insignifigant amount. The original calulation of 93.272171 changed to  93.185690 which is a decrease of .09 %, as expecte from previous metric changes.
+### 6. % Passing Reading amount showed the largest change of a decrease of .30 % as the numbers went from 97.308869 to 97.018739. While the biggest difference, while still a small amount, both math and reading % passing both went down.
+### 7. % Overall Passing - because both the % Passing Math and Reading both went down, we would expect to see the cumulative effect on the Overall Passing, which we do. The Thomas High School, % Overall Passing went from 90.948012 to 90.630324 which is an overall change of - .34 %. Again, because the % Passing Reading had a .30 % drop we would see it reflected here. 
+
+## Resources
+- Data Source: election_resulrs.csv
+- Software: Python 3.6.1, Visusal Studio Code, 1.38.1
+
+
+The analysis of the election show the following:
+- There were 369,711 votes cast in the election.
+- The candiddates were:
+    - Charles Casper
+    - Diana DeGette
+    - Raymon Anthony Doane
+- The candidate results were:
+    - Charles Casper Stockham: 23.0% (85,213)
+    - Diana DeGette: 73.8% (272,892)
+    - Raymon Anthony Doane: 3.1% (11,606)
+- The winner of the election was:
+Winner: Diana DeGette
+Winning Vote Count: 272,892
+Winning Percentage: 73.8%
+- The list of counties and turn out were:
+    - Jefferson: 10.5% (38,855)
+    - Denver: 82.8% (306,055)
+    - Arapahoe: 6.7% (24,801)
+- The county with the largest turnout: Denver 
+
+- This output is available in the terminal and as output in a text file:
+![Election_Analysis](./ElectionResultsTerminal.png)
+![Election_Analysis](./ElectionResultsText.png)
+
+## Election-Audit Summary
+This Python script was written to provide easy access to election results with-out needing to use excel which can be
+more time consuming to run the process and to re-use available code.
+
+Here are some possible additional uses for the module with somewhat easy modifications:
+1) If the input .csv has additional columns or is not in the same order, it would be easy to modify the code to accept a different
+.csv columnns.
+2) If the election_results.csv could be modified to include if the ballots were either:
+    - mail in
+    - punchcard or machine counted
+    - DRE computer counted cards
+   Analysis could be completed to see which methods are used most often and even which counties utilize which methods the most.
+3) It could be easily modified for primaries by using if and elif statements to get several of the candidates who received the top 
+votes based on requirements of how many candidates are eligible to run.
+
+# Challenge Overview
+Was difficult and time comsuming to do the assignment but the challenge was a bit easier as I had everything in place from the assignment.
