@@ -21,11 +21,11 @@ There are seven key metrics being calculated and some were impacted by the chang
 If we look at the differnce between the Original Spending Summary dataframe and the Challenge Spending Summary dataframe (attached below), we can see there were 5 changes to the school distict analysis in the category that Thomas High School was grouped into due to their school's spending range of $630 to $644.  The other ranges would not have been affected by the changes to Thomas High School, as as expected, there are not changes in the other ranges.
 
 ### For the range of $630 to $644 that Thomas school was in we see the following changes:
-1) Average Math Score went from the original output of 78.518855 to the challenge output of 78.502002. This would be due to the decrease in math scores at Thomas once the corrupt data was removed and calculation adjusted.
-2) Average Reading Score	81.624473 81.636261
-3) % Passing Math	73.484209 73.462589
-4) % Passing Reading	84.391793 84.319261
-5) % Overall Passin 62.857656 62.778233
+1) Average Math Score went from the original output of 78.518855 to the challenge output of 78.502002. This would be due to the decrease in math scores at Thomas High School once the corrupt data was removed and calculation adjusted.
+2) Average Reading Score went up for this range from original of 81.624473 to challenge percentage of 81.636261. Again, this would be expected given the results of reading increased slightly when 9th graders were removed.
+3) % Passing Math went down from 73.484209 to 73.462589, this is impacted by the internal change at Thomas High School for this metric.
+4) % Passing Reading 84.391793 84.319261 this is impacted by the internal change at Thomas High School for this metric as even though the Average Reading Score went up, % passing would not necessarily have the same increase.
+5) % Overall Passing - this metric changed from 62.857656 on the original to  62.778233 on the challenge with updated numbers includes.  We would expect this to reflect the changes in % Passing Math and % Passing Reading, and we do see a decrease similar in that to the sum of those figures.
 				
 ![School_District_Analysis](./original_spending_summary_df.png)
 ![School_District_Analysis](./challenge_spending_summary_df.png)
