@@ -20,27 +20,7 @@ There are seven key metrics being calculated and some were impacted by the chang
 - Software: Python 3.6.1, Visusal Studio Code, 1.38.1
 
 
-The analysis of the election show the following:
-- There were 369,711 votes cast in the election.
-- The candiddates were:
-    - Charles Casper
-    - Diana DeGette
-    - Raymon Anthony Doane
-- The candidate results were:
-    - Charles Casper Stockham: 23.0% (85,213)
-    - Diana DeGette: 73.8% (272,892)
-    - Raymon Anthony Doane: 3.1% (11,606)
-- The winner of the election was:
-Winner: Diana DeGette
-Winning Vote Count: 272,892
-Winning Percentage: 73.8%
-- The list of counties and turn out were:
-    - Jefferson: 10.5% (38,855)
-    - Denver: 82.8% (306,055)
-    - Arapahoe: 6.7% (24,801)
-- The county with the largest turnout: Denver 
 
-- This output is available in the terminal and as output in a text file:
 ![Election_Analysis](./ElectionResultsTerminal.png)
 ![Election_Analysis](./ElectionResultsText.png)
 
