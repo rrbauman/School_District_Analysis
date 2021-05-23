@@ -16,8 +16,8 @@ There are seven key metrics being calculated and some were impacted by the chang
 ### 7. % Overall Passing - because both the % Passing Math and Reading both went down, we would expect to see the cumulative effect on the Overall Passing, which we do. The Thomas High School, % Overall Passing went from 90.948012 to 90.630324 which is an overall change of - .34 %. Again, because the % Passing Reading had a .30 % drop we would see it reflected here. 
 ![School_District_Analysis](./original_per_school_summary.png)
 ![School_District_Analysis](./challenge_per_school_summary.png)
-![School_District_Analysis](./original_spending_summary.png)
-![School_District_Analysis](./challenge_spending_summary.png)
+![School_District_Analysis](./original_spending_summary_df.png)
+![School_District_Analysis](./challenge_spending_summary_df.png)
 
 ## School District Analysis Summary
 
