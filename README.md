@@ -41,7 +41,7 @@ Here are some possible additional uses for the module with somewhat easy modific
     - DRE computer counted cards
    Analysis could be completed to see which methods are used most often and even which counties utilize which methods the most.
 3) It could be easily modified for primaries by using if and elif statements to get several of the candidates who received the top 
-votes based on requirements of how many candidates are eligible to run.
+votes based on requirements of how many candidates are eligible to run.xx
 
 # Challenge Overview
 Was difficult and time comsuming to do the assignment but the challenge was a bit easier as I had everything in place from the assignment.
