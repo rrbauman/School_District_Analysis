@@ -39,17 +39,17 @@ All of the above differences no longer have any detectable impact after rounding
 ![School_District_Analysis](./original_size_summary.png)
 ![School_District_Analysis](./challenge_size_summary.png)
 
-### Finally, for the final summarry
-![School_District_Analysis](./original_size_summary.png)
-![School_District_Analysis](./challenge_size_summary.png)
+### Finally, for the district summary analysis, we also see there were no changes as the rounding of the calculations in the formatting process removes any detectable differences as shown in the provided illustrations.
+![School_District_Analysis](./original_type_summary.png)
+![School_District_Analysis](./challenge_type_summary.png)
 
 
 
 
 ## Resources
 - Data Source: election_resulrs.csv
-- Software: Python 3.6.1, Visusal Studio Code, 1.38.1
+- Software: 4 Panda, Jupyter and Python
 
 
 # Challenge Overview
-Was difficult and time comsuming to do the assignment but the challenge was a bit easier as I had everything in place from the assignment.
+Was difficult to understand the .loc function at first, but once I had that figured out most of the rest was easy to re-purpose my code from assignment.
