@@ -39,7 +39,9 @@ All of the above differences no longer have any detectable impact after rounding
 ![School_District_Analysis](./original_size_summary.png)
 ![School_District_Analysis](./challenge_size_summary.png)
 
-And then, as expected, we would not see any change to the overall summary:
+### Finally, for the final summarry
+![School_District_Analysis](./original_size_summary.png)
+![School_District_Analysis](./challenge_size_summary.png)
 
 
 
