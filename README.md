@@ -36,7 +36,8 @@ All of the above differences no longer have any detectable impact after rounding
 ![School_District_Analysis](./challenge_spending_summary_fmt.png)
 
 ### Similarly, for the School Size metrics, we see a difference prior to formatting, but after rounding to 1 decimal place, the data is the same.
-
+![School_District_Analysis](./original_size_summary.png)
+![School_District_Analysis](./challenge_size_summary.png)
 
 And then, as expected, we would not see any change to the overall summary:
 
