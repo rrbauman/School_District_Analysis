@@ -47,7 +47,8 @@ All of the above differences no longer have any detectable impact after rounding
 
 
 ## Resources
-- Data Source: election_resulrs.csv
+- Data Source: schools_complete.csv 
+	       students_complete.csv
 - Software: 4 Panda, Jupyter and Python
 
 
