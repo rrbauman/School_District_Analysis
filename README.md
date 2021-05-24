@@ -35,31 +35,18 @@ All of the above differences no longer have any detectable impact after rounding
 ![School_District_Analysis](./original_spending_summary_fmt.png)
 ![School_District_Analysis](./challenge_spending_summary_fmt.png)
 
+### Similarly, for the School Size metrics, we see a difference prior to formatting, but after rounding to 1 decimal place, the data is the same.
+
+
+And then, as expected, we would not see any change to the overall summary:
+
+
 
 
 ## Resources
 - Data Source: election_resulrs.csv
 - Software: Python 3.6.1, Visusal Studio Code, 1.38.1
 
-
-
-![Election_Analysis](./ElectionResultsTerminal.png)
-![Election_Analysis](./ElectionResultsText.png)
-
-## Election-Audit Summary
-This Python script was written to provide easy access to election results with-out needing to use excel which can be
-more time consuming to run the process and to re-use available code.
-
-Here are some possible additional uses for the module with somewhat easy modifications:
-1) If the input .csv has additional columns or is not in the same order, it would be easy to modify the code to accept a different
-.csv columnns.
-2) If the election_results.csv could be modified to include if the ballots were either:
-    - mail in
-    - punchcard or machine counted
-    - DRE computer counted cards
-   Analysis could be completed to see which methods are used most often and even which counties utilize which methods the most.
-3) It could be easily modified for primaries by using if and elif statements to get several of the candidates who received the top 
-votes based on requirements of how many candidates are eligible to run.xx
 
 # Challenge Overview
 Was difficult and time comsuming to do the assignment but the challenge was a bit easier as I had everything in place from the assignment.
